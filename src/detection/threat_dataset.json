@@ -1,0 +1,162 @@
+[
+  {
+    "risk_score": 90,
+    "has_http": 1,
+    "description_length": 45,
+    "protocol": "TCP",
+    "port": 80,
+    "payload_size": 1500,
+    "request_type": "GET",
+    "threat_type": "malware"
+  },
+  {
+    "risk_score": 85,
+    "has_http": 1,
+    "description_length": 50,
+    "protocol": "HTTP",
+    "port": 443,
+    "payload_size": 2000,
+    "request_type": "POST",
+    "threat_type": "phishing"
+  },
+  {
+    "risk_score": 70,
+    "has_http": 0,
+    "description_length": 30,
+    "protocol": "TCP",
+    "port": 22,
+    "payload_size": 500,
+    "request_type": "SSH",
+    "threat_type": "brute_force"
+  },
+  {
+    "risk_score": 60,
+    "has_http": 0,
+    "description_length": 25,
+    "protocol": "TCP",
+    "port": 3389,
+    "payload_size": 1000,
+    "request_type": "RDP",
+    "threat_type": "anomaly"
+  },
+  {
+    "risk_score": 95,
+    "has_http": 1,
+    "description_length": 60,
+    "protocol": "HTTP",
+    "port": 80,
+    "payload_size": 1200,
+    "request_type": "GET",
+    "threat_type": "sql_injection"
+  },
+  {
+    "risk_score": 88,
+    "has_http": 1,
+    "description_length": 55,
+    "protocol": "HTTP",
+    "port": 443,
+    "payload_size": 1300,
+    "request_type": "POST",
+    "threat_type": "xss"
+  },
+  {
+    "risk_score": 92,
+    "has_http": 0,
+    "description_length": 40,
+    "protocol": "UDP",
+    "port": 53,
+    "payload_size": 800,
+    "request_type": "DNS",
+    "threat_type": "ddos"
+  },
+  {
+    "risk_score": 90,
+    "has_http": 1,
+    "description_length": 70,
+    "protocol": "TCP",
+    "port": 445,
+    "payload_size": 1600,
+    "request_type": "SMB",
+    "threat_type": "ransomware"
+  },
+  {
+    "risk_score": 80,
+    "has_http": 0,
+    "description_length": 35,
+    "protocol": "TCP",
+    "port": 443,
+    "payload_size": 900,
+    "request_type": "HTTPS",
+    "threat_type": "man_in_the_middle"
+  },
+  {
+    "risk_score": 75,
+    "has_http": 0,
+    "description_length": 50,
+    "protocol": "TCP",
+    "port": 80,
+    "payload_size": 1100,
+    "request_type": "HTTP",
+    "threat_type": "zero_day"
+  },
+  {
+    "risk_score": 85,
+    "has_http": 0,
+    "description_length": 45,
+    "protocol": "TCP",
+    "port": 21,
+    "payload_size": 1000,
+    "request_type": "FTP",
+    "threat_type": "spyware"
+  },
+  {
+    "risk_score": 90,
+    "has_http": 1,
+    "description_length": 60,
+    "protocol": "TCP",
+    "port": 25,
+    "payload_size": 1400,
+    "request_type": "SMTP",
+    "threat_type": "trojan"
+  },
+  {
+    "risk_score": 70,
+    "has_http": 0,
+    "description_length": 30,
+    "protocol": "TCP",
+    "port": 23,
+    "payload_size": 700,
+    "request_type": "Telnet",
+    "threat_type": "worm"
+  },
+  {
+    "risk_score": 65,
+    "has_http": 0,
+    "description_length": 25,
+    "protocol": "TCP",
+    "port": 139,
+    "payload_size": 600,
+    "request_type": "NetBIOS",
+    "threat_type": "rootkit"
+  },
+  {
+    "risk_score": 80,
+    "has_http": 0,
+    "description_length": 40,
+    "protocol": "TCP",
+    "port": 8080,
+    "payload_size": 900,
+    "request_type": "HTTP",
+    "threat_type": "keylogger"
+  },
+  {
+    "risk_score": 75,
+    "has_http": 1,
+    "description_length": 35,
+    "protocol": "TCP",
+    "port": 3128,
+    "payload_size": 850,
+    "request_type": "HTTP",
+    "threat_type": "adware"
+  }
+]
